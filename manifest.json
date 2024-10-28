@@ -1,0 +1,22 @@
+
+  
+
+{
+    "manifest_version": 3,
+    "name": "Celtics Game Notifier",
+    "version": "1.0",
+    "permissions": [
+      "notifications"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  

@@ -1,0 +1,78 @@
+/* Basic reset and layout styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Main container styling */
+  .container {
+    text-align: center;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+  }
+  
+  /* Heading styling */
+  h1 {
+    font-size: 1.5em;
+    color: #007A33;  /* Celtics green */
+    margin-bottom: 1em;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #007A33; /* Celtics green */
+    color: #fff;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #005F27;
+  }
+  
+  /* Button focus outline */
+  button:focus {
+    outline: 3px solid #FFD700; /* Gold for a bright effect */
+  }
+  
+  #gameInfo {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    white-space: pre-line;
+    text-align: left;
+    max-height: 300px;
+    overflow-y: auto;
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+  
+  .container {
+    min-width: 350px;
+  }
+  
+  button {
+    margin: 0.5em;
+    display: block;
+    width: 100%;
+  }
