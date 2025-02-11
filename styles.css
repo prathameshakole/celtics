@@ -1,4 +1,4 @@
-/* Basic reset and layout styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +14,6 @@
     background-color: #f5f5f5;
   }
   
-  /* Main container styling */
   .container {
     text-align: center;
     background-color: #fff;
@@ -24,16 +23,14 @@
     max-width: 300px;
   }
   
-  /* Heading styling */
   h1 {
     font-size: 1.5em;
-    color: #007A33;  /* Celtics green */
+    color: #007A33; 
     margin-bottom: 1em;
   }
   
-  /* Button styling */
   button {
-    background-color: #007A33; /* Celtics green */
+    background-color: #007A33; 
     color: #fff;
     padding: 0.75em 1.5em;
     border: none;
@@ -44,14 +41,12 @@
     transition: background-color 0.3s;
   }
   
-  /* Button hover effect */
   button:hover {
     background-color: #005F27;
   }
   
-  /* Button focus outline */
   button:focus {
-    outline: 3px solid #FFD700; /* Gold for a bright effect */
+    outline: 3px solid #FFD700; 
   }
   
   #gameInfo {
@@ -76,3 +71,6 @@
     display: block;
     width: 100%;
   }
+
+
+  
